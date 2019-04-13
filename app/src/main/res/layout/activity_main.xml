@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.csming.roundtab.RoundTabBar
+        android:id="@+id/round_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        app:round_tab_bar_background="#212121"
+        app:round_tab_bar_border_width="3dp"
+        app:round_tab_bar_elevation="4dp"
+        app:round_tab_bar_radius="8dp"
+        app:round_tab_bar_text_color="#ffffff" />
+
+    <com.csming.roundtab.RoundTabBar
+        android:id="@+id/round_tabbar2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:round_tab_bar_background="#ffffff"
+        app:round_tab_bar_border_width="2dp"
+        app:round_tab_bar_elevation="4dp"
+        app:round_tab_bar_radius="8dp"
+        app:round_tab_bar_text_color="#212121" />
+
+</LinearLayout>
