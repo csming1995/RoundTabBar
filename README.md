@@ -1,8 +1,6 @@
-# ColorNavigationBar
+# RoundTabBar
 
-彩色的TabBar，加平滑的切换动画，并自带Q弹效果
-
-模仿iOS开源库：https://github.com/saitjr/STColorfulTabBar
+圆角且切换柔和的TabBar
 
 ## Add dependency
 ### **Step 1.** Add the JitPack repository to your build file
